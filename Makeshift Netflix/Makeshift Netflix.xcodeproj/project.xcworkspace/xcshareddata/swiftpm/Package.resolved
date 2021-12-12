@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Apollo",
+        "repositoryURL": "https://github.com/apollographql/apollo-ios",
+        "state": {
+          "branch": null,
+          "revision": "d93568fb58f3eed95c2a0068d830a39a6e9d6c97",
+          "version": "0.50.0"
+        }
+      },
+      {
+        "package": "CwlCatchException",
+        "repositoryURL": "https://github.com/mattgallagher/CwlCatchException.git",
+        "state": {
+          "branch": null,
+          "revision": "35f9e770f54ce62dd8526470f14c6e137cef3eea",
+          "version": "2.1.1"
+        }
+      },
+      {
+        "package": "CwlPreconditionTesting",
+        "repositoryURL": "https://github.com/mattgallagher/CwlPreconditionTesting.git",
+        "state": {
+          "branch": null,
+          "revision": "c21f7bab5ca8eee0a9998bbd17ca1d0eb45d4688",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "git@github.com:Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "c93f16c25af5770f0d3e6af27c9634640946b068",
+          "version": "9.2.1"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": "main",
+          "revision": "c81db820d66350863a9ae3647fbaef921ba5c066",
+          "version": null
+        }
+      },
+      {
+        "package": "SQLite.swift",
+        "repositoryURL": "https://github.com/stephencelis/SQLite.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "60a65015f6402b7c34b9a924f755ca0a73afeeaa",
+          "version": "0.13.1"
+        }
+      },
+      {
+        "package": "URLImage",
+        "repositoryURL": "git@github.com:dmytro-anokhin/url-image.git",
+        "state": {
+          "branch": null,
+          "revision": "4042f955f1fdff00ced85545e1eecdbf969b5cd0",
+          "version": "3.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

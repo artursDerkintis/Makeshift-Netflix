@@ -1,0 +1,22 @@
+query Movie($id: Int!) {
+  movie(id: $id) {
+    id
+    title
+    overview
+    posterPath
+    releaseDate
+    voteAverage
+    voteCount
+    runtime
+    cast {
+      profilePath
+      name
+      character
+      order
+    }
+    director {
+      id
+      name
+    }
+  }
+}

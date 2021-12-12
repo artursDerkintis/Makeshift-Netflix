@@ -1,0 +1,7 @@
+query Movies($limit: Int, $offset: Int, $genre: String, $search: String) {
+   movies(limit: $limit, offset: $offset, orderBy: "popularity", genre: $genre, search: $search) {
+    id
+    title
+    posterPath
+  }
+}

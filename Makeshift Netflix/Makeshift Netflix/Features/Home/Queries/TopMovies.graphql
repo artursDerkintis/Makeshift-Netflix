@@ -1,0 +1,7 @@
+query TopMovies($limit: Int) {
+   movies(orderBy: "popularity", limit: $limit) {
+    id
+    title
+    posterPath
+  }
+}
