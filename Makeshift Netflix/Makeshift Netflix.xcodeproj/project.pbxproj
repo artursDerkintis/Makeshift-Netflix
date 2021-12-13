@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3284FFD0275B033A0039F3EB /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 3284FFCF275B033A0039F3EB /* Apollo */; };
-		3284FFD2275B033A0039F3EB /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 3284FFD1275B033A0039F3EB /* ApolloSQLite */; };
 		3289E021275AF6F90058C710 /* MakeshiftNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289E020275AF6F90058C710 /* MakeshiftNetflixApp.swift */; };
 		3289E025275AF6FB0058C710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289E024275AF6FB0058C710 /* Assets.xcassets */; };
 		3289E028275AF6FB0058C710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289E027275AF6FB0058C710 /* Preview Assets.xcassets */; };
@@ -20,18 +18,20 @@
 		6E383ECB27657F8D00EE4086 /* MappingToBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E383ECA27657F8D00EE4086 /* MappingToBool.swift */; };
 		6E383EDC27658F4300EE4086 /* MakeshiftNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E383EDB27658F4300EE4086 /* MakeshiftNetflixTests.swift */; };
 		6E383EDE27658F8C00EE4086 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E383EDD27658F8C00EE4086 /* Elements.swift */; };
+		6E5A5CDF2767E29B0003A045 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CDE2767E29B0003A045 /* URLImage */; };
+		6E5A5CE12767E29B0003A045 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CE02767E29B0003A045 /* URLImageStore */; };
+		6E5A5CE62767E2CB0003A045 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CE52767E2CB0003A045 /* Quick */; };
+		6E5A5CE82767E2CB0003A045 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CE72767E2CB0003A045 /* Nimble */; };
+		6E5A5CEA2767E4630003A045 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CE92767E4630003A045 /* Apollo */; };
+		6E5A5CEC2767E4760003A045 /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5A5CEB2767E4760003A045 /* ApolloSQLite */; };
 		6E8D75D92763F8E200C6513C /* TopMovies.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75D72763F8E200C6513C /* TopMovies.graphql.swift */; };
 		6E8D75DA2763F8E300C6513C /* Types.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75D82763F8E200C6513C /* Types.graphql.swift */; };
-		6E8D75E02764140600C6513C /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8D75DF2764140600C6513C /* URLImage */; };
-		6E8D75E22764140600C6513C /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8D75E12764140600C6513C /* URLImageStore */; };
 		6E8D75E427641C6F00C6513C /* MoviePosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75E327641C6F00C6513C /* MoviePosterView.swift */; };
 		6E8D75E627641CBC00C6513C /* TopMovies+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75E527641CBC00C6513C /* TopMovies+Extensions.swift */; };
 		6E8D75E827641E2F00C6513C /* AllGenres.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75E727641E2F00C6513C /* AllGenres.graphql */; };
 		6E8D75EA27641EC000C6513C /* AllGenres.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D75E927641EC000C6513C /* AllGenres.graphql.swift */; };
 		6E9BA3C42763E16C001FC2A2 /* HomeViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BA3C32763E16C001FC2A2 /* HomeViewModelSpec.swift */; };
 		6E9BA3C92763E26E001FC2A2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BA3C82763E26E001FC2A2 /* HomeViewModel.swift */; };
-		6E9BA3CE2763E3AE001FC2A2 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6E9BA3CD2763E3AE001FC2A2 /* Nimble */; };
-		6E9BA3D32763E3D6001FC2A2 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 6E9BA3D22763E3D6001FC2A2 /* Quick */; };
 		6E9BA3DD2763EF4B001FC2A2 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BA3DA2763EE19001FC2A2 /* HomeSection.swift */; };
 		6E9BA3DF2763F159001FC2A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BA3D72763ED11001FC2A2 /* HomeView.swift */; };
 		6EA240BA276441050099E8B5 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA240B9276441050099E8B5 /* MovieDetailsViewModel.swift */; };
@@ -102,10 +102,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8D75E22764140600C6513C /* URLImageStore in Frameworks */,
-				3284FFD0275B033A0039F3EB /* Apollo in Frameworks */,
-				6E8D75E02764140600C6513C /* URLImage in Frameworks */,
-				3284FFD2275B033A0039F3EB /* ApolloSQLite in Frameworks */,
+				6E5A5CE12767E29B0003A045 /* URLImageStore in Frameworks */,
+				6E5A5CEC2767E4760003A045 /* ApolloSQLite in Frameworks */,
+				6E5A5CEA2767E4630003A045 /* Apollo in Frameworks */,
+				6E5A5CDF2767E29B0003A045 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9BA3D32763E3D6001FC2A2 /* Quick in Frameworks */,
-				6E9BA3CE2763E3AE001FC2A2 /* Nimble in Frameworks */,
+				6E5A5CE62767E2CB0003A045 /* Quick in Frameworks */,
+				6E5A5CE82767E2CB0003A045 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +377,10 @@
 			);
 			name = "Makeshift Netflix";
 			packageProductDependencies = (
-				3284FFCF275B033A0039F3EB /* Apollo */,
-				3284FFD1275B033A0039F3EB /* ApolloSQLite */,
-				6E8D75DF2764140600C6513C /* URLImage */,
-				6E8D75E12764140600C6513C /* URLImageStore */,
+				6E5A5CDE2767E29B0003A045 /* URLImage */,
+				6E5A5CE02767E29B0003A045 /* URLImageStore */,
+				6E5A5CE92767E4630003A045 /* Apollo */,
+				6E5A5CEB2767E4760003A045 /* ApolloSQLite */,
 			);
 			productName = "SwiftUI Base";
 			productReference = 3289E01D275AF6F90058C710 /* Makeshift Netflix.app */;
@@ -419,8 +419,8 @@
 			);
 			name = "Makeshift Netflix Tests";
 			packageProductDependencies = (
-				6E9BA3CD2763E3AE001FC2A2 /* Nimble */,
-				6E9BA3D22763E3D6001FC2A2 /* Quick */,
+				6E5A5CE52767E2CB0003A045 /* Quick */,
+				6E5A5CE72767E2CB0003A045 /* Nimble */,
 			);
 			productName = "Movie Challenge Tests";
 			productReference = 6E9BA3B32763DD1D001FC2A2 /* Makeshift Netflix Tests.xctest */;
@@ -462,9 +462,9 @@
 			mainGroup = 3289E014275AF6F90058C710;
 			packageReferences = (
 				3284FFCE275B033A0039F3EB /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				6E9BA3BF2763DE85001FC2A2 /* XCRemoteSwiftPackageReference "Nimble" */,
-				6E9BA3CF2763E3CF001FC2A2 /* XCRemoteSwiftPackageReference "Quick" */,
-				6E8D75DE2764140600C6513C /* XCRemoteSwiftPackageReference "url-image" */,
+				6E5A5CDA2767E28C0003A045 /* XCRemoteSwiftPackageReference "Quick" */,
+				6E5A5CDD2767E29B0003A045 /* XCRemoteSwiftPackageReference "url-image" */,
+				6E5A5CE22767E2B60003A045 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = 3289E01E275AF6F90058C710 /* Products */;
 			projectDirPath = "";
@@ -911,62 +911,62 @@
 				version = 0.50.0;
 			};
 		};
-		6E8D75DE2764140600C6513C /* XCRemoteSwiftPackageReference "url-image" */ = {
+		6E5A5CDA2767E28C0003A045 /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:dmytro-anokhin/url-image.git";
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.0;
+			};
+		};
+		6E5A5CDD2767E29B0003A045 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
 			requirement = {
 				kind = exactVersion;
 				version = 3.1.1;
 			};
 		};
-		6E9BA3BF2763DE85001FC2A2 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+		6E5A5CE22767E2B60003A045 /* XCRemoteSwiftPackageReference "Nimble" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:Quick/Nimble.git";
+			repositoryURL = "https://github.com/Quick/Nimble";
 			requirement = {
 				kind = exactVersion;
 				version = 9.2.1;
 			};
 		};
-		6E9BA3CF2763E3CF001FC2A2 /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3284FFCF275B033A0039F3EB /* Apollo */ = {
+		6E5A5CDE2767E29B0003A045 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E5A5CDD2767E29B0003A045 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		6E5A5CE02767E29B0003A045 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E5A5CDD2767E29B0003A045 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		6E5A5CE52767E2CB0003A045 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E5A5CDA2767E28C0003A045 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		6E5A5CE72767E2CB0003A045 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E5A5CE22767E2B60003A045 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		6E5A5CE92767E4630003A045 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3284FFCE275B033A0039F3EB /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
 		};
-		3284FFD1275B033A0039F3EB /* ApolloSQLite */ = {
+		6E5A5CEB2767E4760003A045 /* ApolloSQLite */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3284FFCE275B033A0039F3EB /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = ApolloSQLite;
-		};
-		6E8D75DF2764140600C6513C /* URLImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E8D75DE2764140600C6513C /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImage;
-		};
-		6E8D75E12764140600C6513C /* URLImageStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E8D75DE2764140600C6513C /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImageStore;
-		};
-		6E9BA3CD2763E3AE001FC2A2 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E9BA3BF2763DE85001FC2A2 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		6E9BA3D22763E3D6001FC2A2 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E9BA3CF2763E3CF001FC2A2 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
